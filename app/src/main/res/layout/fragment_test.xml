@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    android:padding="20dp"
+    tools:context=".Test">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take your Test!"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Do you have fever?"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="2. Do you have dry cough?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q2"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="3. Do you feel tired?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="4. Do you have aches and pains?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q4"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="5. Do you have sore throat?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q5"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="6. Do you have diarrhea?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q6"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="7. Do you have conjunctivitis?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q7"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="8. Do you have headache?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q8"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="9. Loss of taste or smell sensations?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q9"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="10. Do you hava a rash on skin or discolouration of fingers or toes?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q10"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="11. Do you have difficulty in breathing or shortness of breath?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q11"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="12. Do you have chest pain or pressure?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q12"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="13. Do you feel a loss of speech or movement?"
+            android:textColor="@color/color_one"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rg13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q13"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp">
+
+            <RadioButton
+                android:id="@+id/rb13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rbn13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/rbs13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:text="Sometimes" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="#000000"
+            android:text="Submit"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="#000000"
+            android:text="Clear"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You're Okay and Nothing to Worry.. Have a Nice day :)"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/color_green"/>
+
+        <TextView
+            android:id="@+id/tv01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv010"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv011"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv012"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv013"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv014"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="HERE ARE SOME REMEDIES FOR YOU (Scroll Down)"
+            android:textColor="@color/color_one"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

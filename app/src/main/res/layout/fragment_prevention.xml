@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    android:padding="20dp"
+    tools:context=".Prevention">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do this and stop COVID!"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/color_one"/>
+
+        <TextView
+            android:id="@+id/no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="60dp"
+            android:text="STAY Home."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/no2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no1"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="60dp"
+            android:text="KEEP a Safe Distance."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/no3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no2"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="60dp"
+            android:text="WASH Hands Often."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/no4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no3"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="60dp"
+            android:text="COVER your Cough."
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/no5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no4"
+            android:layout_marginTop="8dp"
+            android:text="Sick? Call the Helpline."
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="60dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/strT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To prevent the spread of COVID-19:"
+            android:textSize="25sp"
+            android:textColor="@color/color_one"
+            android:layout_below="@id/no5"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/str1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/strT"
+            android:layout_marginTop="20dp"
+            android:text="@string/str1"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/str2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/str1"
+            android:layout_marginTop="20dp"
+            android:text="@string/str2"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/str3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/str2"
+            android:layout_marginTop="20dp"
+            android:text="@string/str3"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/str4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/str3"
+            android:layout_marginTop="20dp"
+            android:text="@string/str4"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/str5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/str4"
+            android:layout_marginTop="20dp"
+            android:text="@string/str5"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/str6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/str5"
+            android:layout_marginTop="20dp"
+            android:text="@string/str6"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/str7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/str6"
+            android:layout_marginTop="20dp"
+            android:text="@string/str7"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/strM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use Masks :"
+            android:textSize="25sp"
+            android:textColor="@color/color_one"
+            android:layout_below="@id/str7"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/strM1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/strM"
+            android:layout_marginTop="20dp"
+            android:text="@string/mask"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

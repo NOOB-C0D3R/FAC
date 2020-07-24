@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    android:orientation="vertical"
+    tools:context=".LiveUpdate">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvStats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="World Stats!"
+            android:textColor="@color/colorBlack"
+            android:textSize="40sp"
+            android:fontFamily="@font/antic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/tvStats">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#050505"
+                android:text="Total Cases"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/tvCases"
+                android:textSize="25sp"
+                android:textColor="@color/color_one"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#050505"
+                android:text="Recovered"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/tvRecovered"
+                android:textSize="25sp"
+                android:textColor="#008000"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#050505"
+                android:text="Critical Cases"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/tvCritical"
+                android:textSize="25sp"
+                android:textColor="@color/color_one"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="serif" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#050505"
+                android:text="Active Cases"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/tvActive"
+                android:textSize="25sp"
+                android:textColor="@color/color_one"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#050505"
+                android:text="Today Cases"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/tvTodayCases"
+                android:textSize="25sp"
+                android:textColor="@color/color_one"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#050505"
+                android:text="Total Deaths"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/tvTotalDeaths"
+                android:textSize="25sp"
+                android:textColor="#353535"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#050505"
+                android:text="Today Deaths"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/tvTodayDeaths"
+                android:textSize="25sp"
+                android:textColor="#353535"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="serif" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

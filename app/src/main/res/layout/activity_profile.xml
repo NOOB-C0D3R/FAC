@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:id="@+id/profileTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:onClick="back"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:id="@+id/profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/back"
+                    android:fontFamily="@font/bungee"
+                    android:text="Profile"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp" />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/profileTitle"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_profile" />
+
+            <TextView
+                android:id="@+id/profileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profileImage"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="monospace"
+                android:text="Name"
+                android:textColor="@color/colorYellow"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/profilePhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Mobile Number"
+                android:textColorHint="@color/colorYellow"
+                app:hintTextColor="@color/colorYellow">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBlack"
+                    android:drawableStart="@drawable/ic_profile_phone"
+                    android:drawablePadding="10dp"
+                    android:text="Mobile No."
+                    android:textSize="18sp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:textColor="@color/colorWhite" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/profileGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Gender"
+                android:textColorHint="@color/colorYellow"
+                app:hintTextColor="@color/colorYellow">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBlack"
+                    android:drawableStart="@drawable/ic_profile_gender"
+                    android:drawablePadding="10dp"
+                    android:textSize="18sp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:text="Gender"
+                    android:textColor="@color/colorWhite" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/profileDob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Birth Date"
+                android:textColorHint="@color/colorYellow"
+                app:hintTextColor="@color/colorYellow">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBlack"
+                    android:drawableStart="@drawable/ic_profile_dob"
+                    android:drawablePadding="10dp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:textSize="18sp"
+                    android:text="dob"
+                    android:textColor="@color/colorWhite" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/profileAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Age"
+                android:textColorHint="@color/colorYellow"
+                app:hintTextColor="@color/colorYellow">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBlack"
+                    android:drawableStart="@drawable/ic_profile_age"
+                    android:drawablePadding="10dp"
+                    android:textSize="18sp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:text="age years"
+                    android:textColor="@color/colorWhite" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Logout" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

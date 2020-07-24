@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FAC</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="disc">*Will Update in Code Part*</string>
+    <string name="note">Note : This is just an basic layout of how the App looks and works like. This does not resemble the final Version!</string>
+    <string name="str1"> Clean your hands often. Use soap and water, or an alcohol-based hand rub. </string>
+    <string name="str2"> Maintain a safe distance from anyone who is coughing or sneezing. </string>
+    <string name="str3"> Wear a mask when physical distancing is not possible. </string>
+    <string name="str4"> Don’t touch your eyes, nose or mouth </string>
+    <string name="str5"> Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze. </string>
+    <string name="str6"> Stay home if you feel unwell. </string>
+    <string name="str7"> If you have a fever, cough and difficulty breathing, seek medical attention. </string>
+    <string name="mask"> Masks can help prevent the spread of the virus from the person wearing the mask to others. Masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority.</string>
+</resources>
